@@ -3,6 +3,9 @@ title: "Hello, world"
 publishDate: 2026-03-01
 description: "A first post — and a quick tour of what the writing template can render."
 tags: [ intro, demo, guide ]
+coverImage:
+  src: ./_assets/cover-arcs.jpg
+  alt: "Concentric earth-tone arcs rising from a horizon line, like an abstract risograph sunrise."
 ---
 
 Welcome. This is the first post in your new blog. Replace it (or delete it) when you write your first real post.
