@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer.astro";
 import Header from "@/components/layout/Header.astro";
 import { siteConfig } from "@/site-config";
 import type { SiteMeta } from "@/types";
+import Analytics from '@vercel/analytics/astro';
 
 interface Props {
 	meta: SiteMeta;
@@ -20,6 +21,7 @@ const {
 	<head>
 		<ThemeProvider />
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
+		<Analytics />
 	</head>
 	<body>
 		<SkipLink />
